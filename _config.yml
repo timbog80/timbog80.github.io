@@ -1,8 +1,8 @@
 # Site settings
-title: Elementary OS
+title: elementary OS
 email: timbog80@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Elementary OS Tips & Tricks
+  elementary OS Tips & Tricks
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
