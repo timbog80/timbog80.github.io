@@ -131,6 +131,9 @@ pre {
 .page-heading {
   font-size: 20px; }
 
+.post {
+  margin-bottom: 50px; }
+
 .post-list {
   margin-left: 0;
   list-style: none; }
@@ -172,7 +175,7 @@ pre {
     margin-left: 5px; }
 
 .post-content {
-  margin-bottom: 50px; }
+  margin-bottom: 30px; }
 
 /**
  * Syntax highlighting styles
