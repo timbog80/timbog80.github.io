@@ -164,22 +164,15 @@ pre {
 
 .post-read {
   font-size: 16px;
-  display: block;
+  display: inline-block;
   margin: 20px 0 50px 0; }
   .post-read:hover {
     text-decoration: none; }
   .post-read .fa-angle-double-right {
     margin-left: 5px; }
 
-/**
- * Posts
- */
-.post-content h2 {
-  font-size: 28px; }
-.post-content h3 {
-  font-size: 24px; }
-.post-content h4 {
-  font-size: 20px; }
+.post-content {
+  margin-bottom: 50px; }
 
 /**
  * Syntax highlighting styles
