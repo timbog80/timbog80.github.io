@@ -17,6 +17,12 @@ $grey-color:       #d5d5d5;
 $grey-color-light: #ededed;
 $grey-color-dark:  darken($grey-color, 20%);
 
+@mixin box-sizing($box-model) {
+  -webkit-box-sizing: $box-model;
+     -moz-box-sizing: $box-model;
+          box-sizing: $box-model;
+}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

@@ -109,6 +109,7 @@ code {
   border-radius: 3px;
   display: inline-block;
   background-color: $grey-color-light;
+  @include box-sizing(border-box);
 }
 
 code {
