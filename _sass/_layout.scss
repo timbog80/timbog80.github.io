@@ -74,7 +74,7 @@
 }
 
 .post-read {
-  font-size: 16px;
+  font-size: $base-font-size;
   display: inline-block;
   margin: 20px 0 50px 0;
 
@@ -103,7 +103,7 @@
   border-radius: 2px;
 
   p {
-    font-size: 12px
+    font-size: $small-font-size;
   }
 
   a {
