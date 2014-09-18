@@ -1,9 +1,21 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Freya 0.3 Beta 1"
 date:   2014-09-17 16:21:26
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve --watch`, which launches a web server and auto-regenerates your site when a file is updated.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero `asperiores` ullam quis quam quo ut velit nam provident, qui sequi praesentium numquam mollitia, `impedit` illum iusto repellat dolor obcaecati cumque.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+Lorem ipsum dolor sit amet, consectetur `adipisicing` elit. Et nulla reiciendis, qui possimus veniam mollitia, ex quia eos! Eaque, hic ipsa. Quibusdam suscipit dicta, excepturi inventore voluptate temporibus nesciunt incidunt!
+
+{% highlight ruby %}
+def show
+  @widget = Widget(params[:id])
+  respond_to do |format|
+    format.html # show.html.erb
+    format.json { render json: @widget }
+  end
+end
+{% endhighlight %}
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam reiciendis accusantium, est voluptatibus perspiciatis, sint ipsum, quia temporibus suscipit eaque deserunt voluptate rerum aliquid labore voluptas? Autem laborum, doloremque sapiente!

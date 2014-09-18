@@ -91,3 +91,25 @@
 .post-content {
   margin-bottom: 30px;
 }
+
+/**
+ * Footer content
+ */
+
+.powered-by {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255,255,255,.9);
+  padding: 4px 8px;
+  border-radius: 2px;
+
+  p {
+    font-size: 12px
+  }
+
+  a {
+    text-decoration: none;
+    color: #B22222;
+  }
+}

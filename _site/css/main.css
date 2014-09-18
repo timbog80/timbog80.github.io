@@ -77,7 +77,6 @@ code {
   font-size: 15px;
   border: 1px solid #d5d5d5;
   border-radius: 3px;
-  display: inline-block;
   background-color: #ededed;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -103,9 +102,26 @@ pre {
   width: 50%;
   margin: 0 auto; }
 
+/**
+ * Selection Color
+ */
+::selection {
+  background: #ededed;
+  /* WebKit/Blink Browsers */ }
+
+::-moz-selection {
+  background: #ffb7b7;
+  /* Gecko Browsers */ }
+
+/**
+ * Media Query
+ */
 @media screen and (max-width: 700px) {
   .wrapper {
-    width: 90%; } }
+    width: 90%; }
+
+  pre {
+    overflow-x: scroll; } }
 /**
  * Site header
  */
@@ -176,6 +192,22 @@ pre {
 
 .post-content {
   margin-bottom: 30px; }
+
+/**
+ * Footer content
+ */
+.powered-by {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 4px 8px;
+  border-radius: 2px; }
+  .powered-by p {
+    font-size: 12px; }
+  .powered-by a {
+    text-decoration: none;
+    color: #B22222; }
 
 /**
  * Syntax highlighting styles

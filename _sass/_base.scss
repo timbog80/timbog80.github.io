@@ -107,7 +107,6 @@ code {
   font-size: 15px;
   border: 1px solid $grey-color;
   border-radius: 3px;
-  display: inline-block;
   background-color: $grey-color-light;
   @include box-sizing(border-box);
 }
@@ -138,8 +137,25 @@ pre {
   margin: 0 auto;
 }
 
+/**
+ * Selection Color
+ */
+::selection {
+  background: $grey-color-light; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffb7b7; /* Gecko Browsers */
+}
+
+/**
+ * Media Query
+ */
 @media screen and (max-width: 700px) {
   .wrapper {
     width: 90%;
+  }
+
+  pre {
+    overflow-x: scroll;
   }
 }
