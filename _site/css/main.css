@@ -53,7 +53,8 @@ h1, h2, h3, h4, h5, h6 {
  */
 a {
   color: #B22222;
-  text-decoration: none; }
+  text-decoration: none;
+  transition: color .2s; }
   a:hover {
     color: #871a1a; }
 

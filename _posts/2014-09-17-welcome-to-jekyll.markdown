@@ -13,7 +13,7 @@ Since the release of Elementary OS Beta 1 I've been searching and waiting for El
 
 <br>
 
-This version is actually the latest and contently being maintained, so if you are going install Tweaks this one would be the one to try first.
+This version is actually the latest and constantly being maintained, so if you are going install Tweaks this one would be the one to try first.
 
 {% highlight html %}
 sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
