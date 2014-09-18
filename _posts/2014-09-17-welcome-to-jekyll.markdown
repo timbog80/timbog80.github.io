@@ -1,21 +1,36 @@
 ---
 layout: post
-title:  "Freya 0.3 Beta 1"
+title:  "Freya Tweak Tool"
 date:   2014-09-17 16:21:26
 categories: jekyll update
 ---
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero `asperiores` ullam quis quam quo ut velit nam provident, qui sequi praesentium numquam mollitia, `impedit` illum iusto repellat dolor obcaecati cumque.
 
-Lorem ipsum dolor sit amet, consectetur `adipisicing` elit. Et nulla reiciendis, qui possimus veniam mollitia, ex quia eos! Eaque, hic ipsa. Quibusdam suscipit dicta, excepturi inventore voluptate temporibus nesciunt incidunt!
+Since the release of Elementary OS Beta 1 I've been searching and waiting for Elementary Tweak Tools to become available. After searching for while I stumbled receantly upon [lmelinux.net](http://lmelinux.net/2014/08/11/get-elementary-tweaks-working-freya-beta-1/) There I found three methods of installing the tweak tool.
 
-{% highlight ruby %}
-def show
-  @widget = Widget(params[:id])
-  respond_to do |format|
-    format.html # show.html.erb
-    format.json { render json: @widget }
-  end
-end
+[My helpful screenshot]({{ site.url }}/assets/tweaks-post.png)
+
+<br>
+
+This version is actually the latest and constently being maintained, so if you are going install Tweaks this one would be the one to try first.
+
+{% highlight html %}
+sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
+sudo apt-get update
+sudo apt-get install elementary-tweaks
 {% endhighlight %}
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam reiciendis accusantium, est voluptatibus perspiciatis, sint ipsum, quia temporibus suscipit eaque deserunt voluptate rerum aliquid labore voluptas? Autem laborum, doloremque sapiente!
+This second method also works on most Freya systems, its a patched version of the old Tweaks. Give it a try.
+
+{% highlight html %}
+sudo add-apt-repository ppa:bmeznarsic/tweaks-freya
+sudo apt-get update
+sudo apt-get install elementary-tweaks
+{% endhighlight %}
+
+This last method is actally the official ppa for the tweaks tool, I've actaully tried this one but It didnt work for me, its been a while so maybe it got fixed.
+
+{% highlight html %}
+sudo add-apt-repository ppa:versable/elementary-tweaks-isis
+sudo apt-get update
+sudo apt-get install elementary-tweaks
+{% endhighlight %}

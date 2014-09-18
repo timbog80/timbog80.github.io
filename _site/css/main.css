@@ -89,7 +89,7 @@ code {
 pre {
   padding: 8px 12px;
   width: 100%;
-  margin: 30px 0; }
+  margin: 20px 0; }
   pre > code {
     border: 0;
     padding-right: 0;
@@ -112,6 +112,12 @@ pre {
 ::-moz-selection {
   background: #ffb7b7;
   /* Gecko Browsers */ }
+
+/**
+ * Scroll Bar
+ */
+::-webkit-scrollbar {
+  display: none; }
 
 /**
  * Media Query
