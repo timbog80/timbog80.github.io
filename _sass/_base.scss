@@ -138,7 +138,7 @@ pre {
   margin: 0 auto;
 }
 
-@media (max-width: 700px) {
+@media screen and (max-width: 700px) {
   .wrapper {
     width: 90%;
   }
