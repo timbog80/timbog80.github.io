@@ -9,7 +9,7 @@ Since the release of Elementary OS Beta 1 I've been searching and waiting for El
 
 <br>
 
-[Tweak Tools Screenshot]({{ site.url }}/assets/tweaks-post.png)
+![Tweak Tools Screenshot]({{ site.url }}/assets/tweaks-post.png)
 
 <br>
 

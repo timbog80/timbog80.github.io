@@ -2,14 +2,17 @@
  * Site header
  */
 .site-header {
-  padding: 30px 0;
+  padding: 70px 0;
+  margin-bottom: 40px;
+  background: $brand-color;
+  border-bottom: 1px solid #005bcc;
 
   .site-title {
     font-size: 28px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    color: $text-color;
+    color: white;
 
     &:hover {
       text-decoration: none;
@@ -18,6 +21,7 @@
 
   .site-description {
     font-style: italic;
+    color: white;
   }
 }
 

@@ -52,11 +52,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #B22222;
+  color: #0072ff;
   text-decoration: none;
   transition: color .2s; }
   a:hover {
-    color: #871a1a; }
+    color: #005bcc; }
 
 /**
  * Blockquotes
@@ -133,17 +133,21 @@ pre {
  * Site header
  */
 .site-header {
-  padding: 30px 0; }
+  padding: 70px 0;
+  margin-bottom: 40px;
+  background: #0072ff;
+  border-bottom: 1px solid #005bcc; }
   .site-header .site-title {
     font-size: 28px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    color: #222222; }
+    color: white; }
     .site-header .site-title:hover {
       text-decoration: none; }
   .site-header .site-description {
-    font-style: italic; }
+    font-style: italic;
+    color: white; }
 
 /**
  * Page content
@@ -213,7 +217,7 @@ pre {
     font-size: 12px; }
   .powered-by a {
     text-decoration: none;
-    color: #B22222; }
+    color: #0072ff; }
 
 /**
  * Syntax highlighting styles
