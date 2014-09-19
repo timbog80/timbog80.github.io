@@ -6,11 +6,11 @@
   width: 100%;
   z-index: 9999;
   top: 0;
-  padding: 70px 0;
+  padding: 50px 0;
   margin-bottom: 40px;
   background: #0072ff;
   border-bottom: 1px solid #005bcc;
-  transition: all .25s ease; }
+  transition: all .2s ease; }
   .site-header.smaller {
     padding: 10px 0; }
     .site-header.smaller .site-description {
@@ -33,7 +33,7 @@
 .page-content {
   display: block;
   margin: 0 auto;
-  margin-top: 270px; }
+  margin-top: 230px; }
 
 .page-heading {
   font-size: 20px; }
@@ -44,6 +44,8 @@
 .post-list {
   margin-left: 0;
   list-style: none; }
+  .post-list p {
+    font-size: 24px; }
 
 .post-meta {
   font-size: 12px;
