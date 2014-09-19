@@ -2,10 +2,20 @@
  * Site header
  */
 .site-header {
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
+  top: 0;
   padding: 70px 0;
   margin-bottom: 40px;
   background: $brand-color;
   border-bottom: 1px solid #005bcc;
+  transition: all .25s ease;
+
+  &.smaller {
+    box-shadow: 0px 0px 25px -5px #333;
+    padding: 10px 0 15px 0;
+  }
 
   .site-title {
     font-size: 28px;
@@ -23,13 +33,17 @@
     font-style: italic;
     color: white;
   }
+
+
 }
 
 /**
  * Page content
  */
 .page-content {
-  font-size: 22px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 270px;
 }
 
 .page-heading {
@@ -93,6 +107,7 @@
 
 .post-content {
   margin-bottom: 30px;
+  font-size: 24px;
 }
 
 /**

@@ -8,3 +8,22 @@
   </div>
 
 </header>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+<script>
+  $(function(){
+    var scroll = 0;
+    $(window).scroll(function(event){
+        var moved = $(this).scrollTop();
+        if (moved > scroll){
+           $('.site-header').addClass('smaller')
+        }
+        else {
+          $('.site-header').removeClass('smaller')
+        }
+        scroll = moved;
+    });
+  });
+</script>
+
