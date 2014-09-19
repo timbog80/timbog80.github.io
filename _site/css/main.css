@@ -7,10 +7,9 @@
   z-index: 9999;
   top: 0;
   padding: 50px 0;
-  margin-bottom: 40px;
   background: #0072ff;
   border-bottom: 1px solid #005bcc;
-  transition: all .2s ease; }
+  -webkit-transition: all .2s ease; }
   .site-header.smaller {
     padding: 10px 0; }
     .site-header.smaller .site-description {
