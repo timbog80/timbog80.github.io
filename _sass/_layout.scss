@@ -45,7 +45,10 @@
 .page-content {
   display: block;
   margin: 0 auto;
-  margin-top: 230px;
+  margin-top: 220px;
+  &.smaller {
+    margin-top: 170px;
+  }
 }
 
 .page-heading {

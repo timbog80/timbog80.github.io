@@ -45,9 +45,11 @@
         var moved = $(this).scrollTop();
         if (moved > scroll){
            $('.site-header').addClass('smaller')
+           $('.page-content').addClass('smaller')
         }
         else {
           $('.site-header').removeClass('smaller')
+          $('.page-content').removeClass('smaller')
         }
         scroll = moved;
     });

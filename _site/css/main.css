@@ -32,7 +32,9 @@
 .page-content {
   display: block;
   margin: 0 auto;
-  margin-top: 230px; }
+  margin-top: 220px; }
+  .page-content.smaller {
+    margin-top: 170px; }
 
 .page-heading {
   font-size: 20px; }
