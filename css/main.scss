@@ -24,6 +24,14 @@ $grey-color-dark:  darken($grey-color, 20%);
           box-sizing: $box-model;
 }
 
+@mixin transition($transition-property, $transition-time, $method) {
+    -webkit-transition: $transition-property $transition-time $method;
+    -moz-transition: $transition-property $transition-time $method;
+    -ms-transition: $transition-property $transition-time $method;
+    -o-transition: $transition-property $transition-time $method;
+    transition: $transition-property $transition-time $method;
+}
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import

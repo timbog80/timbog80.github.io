@@ -9,7 +9,11 @@
   padding: 50px 0;
   background: #0072ff;
   border-bottom: 1px solid #005bcc;
-  -webkit-transition: all .2s ease; }
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
   .site-header.smaller {
     padding: 10px 0; }
     .site-header.smaller .site-description {
@@ -59,7 +63,11 @@
   margin: 0;
   display: inline-block;
   margin: 0 0 10px 0;
-  transition: all .4s; }
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
   .post-meta:hover {
     color: #ededed;
     background-color: #a2a2a2;

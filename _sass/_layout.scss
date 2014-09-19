@@ -9,7 +9,7 @@
   padding: 50px 0;
   background: $brand-color;
   border-bottom: 1px solid #005bcc;
-  -webkit-transition: all .2s ease;
+  @include transition(all, 0.2s, ease-in-out);
 
   &.smaller {
     padding: 10px 0;
@@ -77,7 +77,8 @@
   margin: 0;
   display: inline-block;
   margin: 0 0 10px 0;
-  transition: all .4s;
+  
+  @include transition(all, 0.4s, ease-in-out);
 
   &:hover {
     color: #ededed;
