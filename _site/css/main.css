@@ -15,7 +15,8 @@
   .site-header.smaller {
     padding: 15px 0 25px 0;
     background: #0072ff;
-    border-bottom: 1px solid #005bcc; }
+    border-bottom: 1px solid #005bcc;
+    opacity: .98; }
     .site-header.smaller .site-description, .site-header.smaller .site-title {
       color: white; }
   .site-header .site-title {
