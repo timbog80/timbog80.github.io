@@ -32,7 +32,6 @@ $grey-color-dark:  darken($grey-color, 20%);
     transition: $transition-property $transition-time $method;
 }
 
-
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "layout",

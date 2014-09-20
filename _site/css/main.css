@@ -6,29 +6,29 @@
   width: 100%;
   z-index: 9999;
   top: 0;
-  padding: 50px 0;
-  background: #0072ff;
-  border-bottom: 1px solid #005bcc;
+  padding: 30px 0;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out; }
   .site-header.smaller {
-    padding: 10px 0; }
-    .site-header.smaller .site-description {
-      display: none; }
+    padding: 15px 0 25px 0;
+    background: #0072ff;
+    border-bottom: 1px solid #005bcc; }
+    .site-header.smaller .site-description, .site-header.smaller .site-title {
+      color: white; }
   .site-header .site-title {
     font-size: 28px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
-    color: white; }
+    color: #222222; }
     .site-header .site-title:hover {
       text-decoration: none; }
   .site-header .site-description {
     font-style: italic;
-    color: white; }
+    color: #222222; }
 
 /**
  * Page content
@@ -36,9 +36,9 @@
 .page-content {
   display: block;
   margin: 0 auto;
-  margin-top: 220px; }
+  margin-top: 160px; }
   .page-content.smaller {
-    margin-top: 170px; }
+    margin-top: 213px; }
 
 .page-heading {
   font-size: 20px; }
