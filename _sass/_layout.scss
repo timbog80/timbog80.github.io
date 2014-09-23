@@ -2,9 +2,8 @@
  * Site Menu
  */
 .menu {
-  position: fixed;
-  top: 25px;
-  left: 35px;
+  float: right;
+  padding: 23px;
 }
 
 .menu-icon {
@@ -35,6 +34,10 @@
     opacity: .98;
 
     .site-description, .site-title {
+      color: white;
+    }
+
+    .fa-th-large {
       color: white;
     }
   }

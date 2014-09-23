@@ -275,9 +275,8 @@ pre {
  * Site Menu
  */
 .menu {
-  position: fixed;
-  top: 25px;
-  left: 35px; }
+  float: right;
+  padding: 23px; }
 
 .menu-icon {
   cursor: pointer; }
@@ -305,6 +304,8 @@ pre {
     border-bottom: thin solid #005bcc;
     opacity: .98; }
     .site-header.smaller .site-description, .site-header.smaller .site-title {
+      color: white; }
+    .site-header.smaller .fa-th-large {
       color: white; }
   .site-header .site-title {
     font-size: 28px;
