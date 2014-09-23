@@ -3,7 +3,7 @@
  */
 .menu {
   float: right;
-  padding: 23px;
+  padding: 26px;
 }
 
 .menu-icon {
@@ -12,6 +12,37 @@
   .fa-th-large {
     font-size: 20px;
     color: $grey-color;
+  }
+
+  span {
+    position: fixed;
+    width: auto;
+    height: auto;
+    max-width: 320px;
+    padding: 15px;
+    background: white;
+    border: thin solid $grey-color;
+    border-radius: .2em;
+    right: 27%;
+    top: 90px;
+    display: table;
+
+    .item {
+      width: 80px;
+      height: 80px;
+      float: left;
+      display: inline-block;
+      margin: 8px;
+      border-radius: .2em;
+
+      &:hover {
+        background: $grey-color-light;
+      }
+
+      img {
+        padding: 17px;
+      }
+    }
   }
 }
 
@@ -44,7 +75,6 @@
 
   .site-title {
     font-size: 28px;
-    line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
     color: $text-color;
