@@ -1,4 +1,23 @@
 /**
+ * Site Menu
+ */
+.menu {
+  position: fixed;
+  top: 25px;
+  left: 35px;
+}
+
+.menu-icon {
+  cursor: pointer;
+
+  .fa-th-large {
+    font-size: 20px;
+    color: $grey-color;
+  }
+}
+
+
+/**
  * Site header
  */
 .site-header {
@@ -12,7 +31,7 @@
   &.smaller {
     padding: 15px 0 25px 0;
     background: $brand-color;
-    border-bottom: 1px solid #005bcc;
+    border-bottom: thin solid #005bcc;
     opacity: .98;
 
     .site-description, .site-title {

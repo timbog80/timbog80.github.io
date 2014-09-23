@@ -34,7 +34,7 @@ $grey-color-dark:  darken($grey-color, 20%);
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-  "layout",
   "base",
-  "syntax-highlighting" 
+  "syntax-highlighting",
+  "layout"
 ;
