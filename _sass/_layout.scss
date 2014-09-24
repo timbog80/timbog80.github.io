@@ -25,10 +25,15 @@
   }
 
   .site-title {
-    font-size: 28px;
+    font-size: 40px;
+    font-weight: 500;
     letter-spacing: -1px;
     margin-bottom: 0;
     color: $text-color;
+    color: transparent;
+    background: url("http://static.pexels.com/wp-content/uploads/2014/09/car-narrow-parking-2886-525x350.jpg") repeat;
+    background-position: center center;
+    -webkit-background-clip: text;
 
     &:hover {
       text-decoration: none;
@@ -36,6 +41,7 @@
   }
 
   .site-description {
+    font-size:  16px;
     font-style: italic;
     color: $text-color;
   }
@@ -120,25 +126,4 @@
 .post-content {
   margin-bottom: 30px;
   font-size: 24px;
-}
-
-/**
- * Footer content
- */
-.powered-by {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  background: rgba(255,255,255,.9);
-  padding: 4px 8px;
-  border-radius: 2px;
-
-  p {
-    font-size: $small-font-size;
-  }
-
-  a {
-    text-decoration: none;
-    color: $brand-color;
-  }
 }

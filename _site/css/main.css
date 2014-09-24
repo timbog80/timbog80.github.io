@@ -295,13 +295,19 @@ pre {
     .site-header.smaller .fa-th-large {
       color: white; }
   .site-header .site-title {
-    font-size: 28px;
+    font-size: 40px;
+    font-weight: 500;
     letter-spacing: -1px;
     margin-bottom: 0;
-    color: #222222; }
+    color: #222222;
+    color: transparent;
+    background: url("http://static.pexels.com/wp-content/uploads/2014/09/car-narrow-parking-2886-525x350.jpg") repeat;
+    background-position: center center;
+    -webkit-background-clip: text; }
     .site-header .site-title:hover {
       text-decoration: none; }
   .site-header .site-description {
+    font-size: 16px;
     font-style: italic;
     color: #222222; }
 
@@ -369,19 +375,3 @@ pre {
 .post-content {
   margin-bottom: 30px;
   font-size: 24px; }
-
-/**
- * Footer content
- */
-.powered-by {
-  position: fixed;
-  bottom: 25px;
-  right: 25px;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 4px 8px;
-  border-radius: 2px; }
-  .powered-by p {
-    font-size: 12px; }
-  .powered-by a {
-    text-decoration: none;
-    color: #0072ff; }
