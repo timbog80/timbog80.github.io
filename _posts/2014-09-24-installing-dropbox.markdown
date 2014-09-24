@@ -5,7 +5,7 @@ date:   2014-09-24 16:21:26
 categories: jekyll update
 ---
 
-Before you can actually install Dropbox to your system you first have to install the plugin for the office environment pantheon. If you are on Luna you will get an icon on the top right of the wing-panel. Currently the icon does not appear on Freya.
+Before you can actually install `Dropbox` to your system you first have to install the plugin for the office environment pantheon. If you are on Luna you will get an icon on the top right of the wing-panel. Currently the icon does not appear on Freya.
 
 {% highlight html %}
 sudo apt-get install pantheon-files-plugin-dropbox

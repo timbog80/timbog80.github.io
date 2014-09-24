@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Showing Hidden Files And Folders"
+title:  "Show Hidden Files & Folders"
 date:   2014-09-23 16:21:26
 categories: jekyll update
 ---
