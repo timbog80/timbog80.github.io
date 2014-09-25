@@ -19,6 +19,8 @@
   <link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
 
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
   <link rel="stylesheet" href="/css/main.css">
   <link rel="canonical" href="/jekyll/update/2014/09/23/show-hidden-files.html">
 </head>
@@ -26,7 +28,11 @@
 
   <body>
     
-    <header class="site-header">
+    <head>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<header class="site-header">
 
   <div class="wrapper">
 
@@ -39,24 +45,15 @@
 </header>
 
 <script>
-  $(function(){
-    var scroll = 0;
-    $(window).scroll(function(event){
-        var moved = $(this).scrollTop();
-        if (moved > scroll){
-           $('.site-header').addClass('smaller')
-           $('.page-content').addClass('smaller')
-        }
-        else {
-          $('.site-header').removeClass('smaller')
-          $('.page-content').removeClass('smaller')
-        }
-        scroll = moved;
+  $(function() {
+    $(window).scroll(function() {
+      if($(this).scrollTop() < 10)
+        $('.site-header, .page-content').addClass('smaller');
+      else 
+        $('.site-header, .page-content').removeClass('smaller');
     });
   });
 </script>
-
-
 
     <div class="page-content">
       <div class="wrapper">

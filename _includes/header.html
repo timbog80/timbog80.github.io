@@ -1,3 +1,7 @@
+<head>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
 <header class="site-header">
 
   <div class="wrapper">
@@ -10,20 +14,12 @@
 </header>
 
 <script>
-  $(function(){
-    var scroll = 0;
-    $(window).scroll(function(event){
-        var moved = $(this).scrollTop();
-        if (moved > scroll){
-           $('.site-header').addClass('smaller')
-           $('.page-content').addClass('smaller')
-        }
-        else {
-          $('.site-header').removeClass('smaller')
-          $('.page-content').removeClass('smaller')
-        }
-        scroll = moved;
+  $(function() {
+    $(window).scroll(function() {
+      if($(this).scrollTop() < 10)
+        $('.site-header, .page-content').addClass('smaller');
+      else 
+        $('.site-header, .page-content').removeClass('smaller');
     });
   });
 </script>
-
