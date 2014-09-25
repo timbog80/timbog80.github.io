@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Installing Dropbox"
-date:   2014-09-24 16:21:26
+date:   2014-09-24
 categories: jekyll update
 ---
 

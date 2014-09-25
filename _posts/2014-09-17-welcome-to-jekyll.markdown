@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Freya Tweak Tool"
-date:   2014-09-17 16:21:26
+date:   2014-09-17
 categories: jekyll update
 ---
 
