@@ -17,4 +17,4 @@ Now you'll see a `scratch` window pop up. Under `[Desktop Entry]` paste the foll
 StartupWMClass=Google-chrome-stable
 {% endhighlight %}
 
-After all that close chrome if opened, and remove the chrome icon from the plank. Then re-lock it back to the plank. In you still get the same results at before, restart and re-lock.
+After all that close chrome if opened, and remove the chrome icon from the plank. Then re-lock it back to the plank.
