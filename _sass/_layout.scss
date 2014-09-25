@@ -4,44 +4,31 @@
 .site-header {
   position: fixed;
   width: 100%;
-  z-index: 9999;
+  z-index: 999;
   top: 0;
   padding: 30px 0;
-  @include transition(all, 0.2s, ease-in-out);
+  @include transition(all, 0.17s, ease);
 
   &.smaller {
+    position: fixed;
     padding: 15px 0 25px 0;
     background: $brand-color;
-    border-bottom: thin solid #005bcc;
-    opacity: .98;
+    opacity: .92;
 
     .site-description, .site-title {
-      color: white;
-    }
-
-    .fa-th-large {
       color: white;
     }
   }
 
   .site-title {
     font-size: 35px;
-    font-weight: 500;
     letter-spacing: -1px;
     margin-bottom: 0;
     color: $text-color;
-    color: transparent;
-    background: url("http://static.pexels.com/wp-content/uploads/2014/09/car-narrow-parking-2886-525x350.jpg") repeat;
-    background-position: center center;
-    -webkit-background-clip: text;
-
-    &:hover {
-      text-decoration: none;
-    }
   }
 
   .site-description {
-    font-size:  14px;
+    font-size:  15px;
     font-style: italic;
     color: $text-color;
   }
@@ -53,9 +40,9 @@
 .page-content {
   display: block;
   margin: 0 auto;
-  margin-top: 160px;
+  margin-top: 150px;
   &.smaller {
-    margin-top: 213px;
+    margin-top: 203px;
   }
 }
 
@@ -81,20 +68,18 @@
   color: $grey-color-dark;
   background-color: #ededed;
   border-radius: 2px;
-  border: thin solid $grey-color;
   font-style: italic;
   padding: 3px 7px;
   margin: 0;
   display: inline-block;
   margin: 0 0 10px 0;
 
-  @include transition(all, 0.4s, ease-in-out);
+  @include transition(all, 0.2s, ease);
 
   &:hover {
     color: #ededed;
-    background-color: $grey-color-dark;
-    border-color: $grey-color-dark;
-    box-shadow: inset 200px 0 0 0 $grey-color-dark;
+    cursor: pointer;
+    background: $grey-color-dark;
   }
 }
 

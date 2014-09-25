@@ -277,37 +277,28 @@ pre {
 .site-header {
   position: fixed;
   width: 100%;
-  z-index: 9999;
+  z-index: 999;
   top: 0;
   padding: 30px 0;
-  -webkit-transition: all 0.2s ease-in-out;
-  -moz-transition: all 0.2s ease-in-out;
-  -ms-transition: all 0.2s ease-in-out;
-  -o-transition: all 0.2s ease-in-out;
-  transition: all 0.2s ease-in-out; }
+  -webkit-transition: all 0.17s ease;
+  -moz-transition: all 0.17s ease;
+  -ms-transition: all 0.17s ease;
+  -o-transition: all 0.17s ease;
+  transition: all 0.17s ease; }
   .site-header.smaller {
+    position: fixed;
     padding: 15px 0 25px 0;
     background: #0072ff;
-    border-bottom: thin solid #005bcc;
-    opacity: .98; }
+    opacity: .92; }
     .site-header.smaller .site-description, .site-header.smaller .site-title {
-      color: white; }
-    .site-header.smaller .fa-th-large {
       color: white; }
   .site-header .site-title {
     font-size: 35px;
-    font-weight: 500;
     letter-spacing: -1px;
     margin-bottom: 0;
-    color: #222222;
-    color: transparent;
-    background: url("http://static.pexels.com/wp-content/uploads/2014/09/car-narrow-parking-2886-525x350.jpg") repeat;
-    background-position: center center;
-    -webkit-background-clip: text; }
-    .site-header .site-title:hover {
-      text-decoration: none; }
+    color: #222222; }
   .site-header .site-description {
-    font-size: 14px;
+    font-size: 15px;
     font-style: italic;
     color: #222222; }
 
@@ -317,9 +308,9 @@ pre {
 .page-content {
   display: block;
   margin: 0 auto;
-  margin-top: 160px; }
+  margin-top: 150px; }
   .page-content.smaller {
-    margin-top: 213px; }
+    margin-top: 203px; }
 
 .page-heading {
   font-size: 20px; }
@@ -338,22 +329,20 @@ pre {
   color: #a2a2a2;
   background-color: #ededed;
   border-radius: 2px;
-  border: thin solid #d5d5d5;
   font-style: italic;
   padding: 3px 7px;
   margin: 0;
   display: inline-block;
   margin: 0 0 10px 0;
-  -webkit-transition: all 0.4s ease-in-out;
-  -moz-transition: all 0.4s ease-in-out;
-  -ms-transition: all 0.4s ease-in-out;
-  -o-transition: all 0.4s ease-in-out;
-  transition: all 0.4s ease-in-out; }
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease; }
   .post-meta:hover {
     color: #ededed;
-    background-color: #a2a2a2;
-    border-color: #a2a2a2;
-    box-shadow: inset 200px 0 0 0 #a2a2a2; }
+    cursor: pointer;
+    background: #a2a2a2; }
 
 .post-link {
   font-size: 40px;
