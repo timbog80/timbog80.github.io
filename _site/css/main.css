@@ -52,11 +52,11 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #0072ff;
+  color: #666666;
   text-decoration: none;
   transition: color .2s; }
   a:hover {
-    color: #005bcc; }
+    color: #4d4d4d; }
 
 /**
  * Blockquotes
