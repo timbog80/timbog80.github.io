@@ -286,6 +286,7 @@ pre {
   -o-transition: all 0.27s ease;
   transition: all 0.27s ease; }
   .site-header.smaller {
+    padding: 24px 0 34px 0;
     background: #333333;
     opacity: .92; }
     .site-header.smaller .site-description, .site-header.smaller .site-title {
