@@ -67,7 +67,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color-dark;
-  background-color: $grey-color-light;
+  background-color: #f4f4f4;
   border-radius: 2px;
   font-style: italic;
   padding: 3px 7px;
@@ -78,9 +78,8 @@
   @include transition(all, 0.2s, ease);
 
   &:hover {
-    color: $grey-color-light;
     cursor: pointer;
-    background: $grey-color-dark;
+    background: $grey-color-light;
   }
 }
 

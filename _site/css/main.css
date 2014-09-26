@@ -327,7 +327,7 @@ pre {
 .post-meta {
   font-size: 12px;
   color: #a2a2a2;
-  background-color: #ededed;
+  background-color: #f4f4f4;
   border-radius: 2px;
   font-style: italic;
   padding: 3px 7px;
@@ -340,9 +340,8 @@ pre {
   -o-transition: all 0.2s ease;
   transition: all 0.2s ease; }
   .post-meta:hover {
-    color: #ededed;
     cursor: pointer;
-    background: #a2a2a2; }
+    background: #ededed; }
 
 .post-link {
   font-size: 40px;
