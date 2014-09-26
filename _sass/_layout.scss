@@ -4,10 +4,10 @@
 .site-header {
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 100;
   top: 0;
   padding: 30px 0;
-  @include transition(all, 0.17s, ease);
+  @include transition(all, .27s, ease);
 
   &.smaller {
     position: fixed;
@@ -28,7 +28,7 @@
   }
 
   .site-description {
-    font-size:  15px;
+    font-size:  $base-font-size;
     font-style: italic;
     color: $text-color;
   }
@@ -41,6 +41,7 @@
   display: block;
   margin: 0 auto;
   margin-top: 150px;
+
   &.smaller {
     margin-top: 203px;
   }
@@ -66,18 +67,18 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color-dark;
-  background-color: #ededed;
+  background-color: $grey-color-light;
   border-radius: 2px;
   font-style: italic;
   padding: 3px 7px;
-  margin: 0;
   display: inline-block;
   margin: 0 0 10px 0;
+  font-weight: 400;
 
   @include transition(all, 0.2s, ease);
 
   &:hover {
-    color: #ededed;
+    color: $grey-color-light;
     cursor: pointer;
     background: $grey-color-dark;
   }

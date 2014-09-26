@@ -277,14 +277,14 @@ pre {
 .site-header {
   position: fixed;
   width: 100%;
-  z-index: 999;
+  z-index: 100;
   top: 0;
   padding: 30px 0;
-  -webkit-transition: all 0.17s ease;
-  -moz-transition: all 0.17s ease;
-  -ms-transition: all 0.17s ease;
-  -o-transition: all 0.17s ease;
-  transition: all 0.17s ease; }
+  -webkit-transition: all 0.27s ease;
+  -moz-transition: all 0.27s ease;
+  -ms-transition: all 0.27s ease;
+  -o-transition: all 0.27s ease;
+  transition: all 0.27s ease; }
   .site-header.smaller {
     position: fixed;
     padding: 15px 0 25px 0;
@@ -298,7 +298,7 @@ pre {
     margin-bottom: 0;
     color: #222222; }
   .site-header .site-description {
-    font-size: 15px;
+    font-size: 16px;
     font-style: italic;
     color: #222222; }
 
@@ -331,9 +331,9 @@ pre {
   border-radius: 2px;
   font-style: italic;
   padding: 3px 7px;
-  margin: 0;
   display: inline-block;
   margin: 0 0 10px 0;
+  font-weight: 400;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   -ms-transition: all 0.2s ease;
