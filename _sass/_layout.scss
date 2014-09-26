@@ -102,10 +102,17 @@
 
   &:hover {
     text-decoration: none;
+
+    .arrow-right {
+      opacity: 1;
+      margin-left: 0;
+    }
   }
 
-  .fa-angle-double-right {
-    margin-left: 5px;
+  .arrow-right {
+    margin-left: -7px;
+    opacity: 0;
+    @include transition(all, .25s, ease);
   }
 }
 

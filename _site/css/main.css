@@ -358,8 +358,17 @@ pre {
   font-style: italic; }
   .post-read:hover {
     text-decoration: none; }
-  .post-read .fa-angle-double-right {
-    margin-left: 5px; }
+    .post-read:hover .arrow-right {
+      opacity: 1;
+      margin-left: 0; }
+  .post-read .arrow-right {
+    margin-left: -7px;
+    opacity: 0;
+    -webkit-transition: all 0.25s ease;
+    -moz-transition: all 0.25s ease;
+    -ms-transition: all 0.25s ease;
+    -o-transition: all 0.25s ease;
+    transition: all 0.25s ease; }
 
 .post-content {
   margin-bottom: 30px;
