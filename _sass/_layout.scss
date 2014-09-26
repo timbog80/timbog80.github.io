@@ -6,12 +6,10 @@
   width: 100%;
   z-index: 100;
   top: 0;
-  padding: 30px 0;
+  padding: 25px 0 35px 0;
   @include transition(all, .27s, ease);
 
   &.smaller {
-    position: fixed;
-    padding: 15px 0 25px 0;
     background: #333333;
     opacity: .92;
 
@@ -94,6 +92,9 @@
   }
 }
 
+/**
+ * Arrow-Right effect
+ */
 .post-read {
   font-size: $mediam-font-size;
   display: inline-block;
