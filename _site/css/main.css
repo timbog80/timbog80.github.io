@@ -365,8 +365,19 @@ pre {
   font-size: 24px; }
 
 .pagination {
+  margin: 0 auto;
   text-align: center;
-  padding: 20px 0 50px 0; }
+  padding: 3px 7px;
+  margin: 20px 0 50px 0;
+  color: #a2a2a2; }
+  .pagination a {
+    margin: 0 3px;
+    padding: 3px 7px; }
+  .pagination em {
+    background: #f4f4f4;
+    color: #a2a2a2;
+    padding: 3px 7px;
+    border-radius: .2em; }
 
 /**
  * Page fade in

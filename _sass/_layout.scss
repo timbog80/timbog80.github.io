@@ -114,8 +114,23 @@
 }
 
 .pagination {
+  margin: 0 auto;
   text-align: center;
-  padding: 20px 0 50px 0;
+  padding: 3px 7px;
+  margin: 20px 0 50px 0;
+  color: $grey-color-dark;
+  
+  a {
+    margin: 0 3px;
+    padding: 3px 7px;
+  }
+
+  em {
+    background: #f4f4f4;
+    color: $grey-color-dark;
+    padding: 3px 7px;
+    border-radius: .2em;
+  }
 }
 
 /**
