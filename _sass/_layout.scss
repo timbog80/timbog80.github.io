@@ -7,7 +7,7 @@
   z-index: 100;
   top: 0;
   padding: 25px 0 35px 0;
-  @include transition(all, .27s, ease);
+  @include transition(all, .25s, ease);
 
   &.smaller {
     padding: 24px 0 34px 0;

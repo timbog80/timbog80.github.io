@@ -280,11 +280,11 @@ pre {
   z-index: 100;
   top: 0;
   padding: 25px 0 35px 0;
-  -webkit-transition: all 0.27s ease;
-  -moz-transition: all 0.27s ease;
-  -ms-transition: all 0.27s ease;
-  -o-transition: all 0.27s ease;
-  transition: all 0.27s ease; }
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
   .site-header.smaller {
     padding: 24px 0 34px 0;
     background: #333333;
