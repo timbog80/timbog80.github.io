@@ -7,13 +7,13 @@ categories: jekyll update
 
 After installing Chrome on a fresh install of elementary OS Freya you might notice that after opening chrome you get two icons. To fix this you have to input one simple line in the terminal.
 
-{% highlight html %}
+{% highlight bash %}
 sudo scratch-text-editor /usr/share/applications/google-chrome.desktop
 {% endhighlight %}
 
 Now you'll see a `scratch` window pop up. Under `[Desktop Entry]` paste the following line of code:
 
-{% highlight html %}
+{% highlight bash %}
 StartupWMClass=Google-chrome-stable
 {% endhighlight %}
 

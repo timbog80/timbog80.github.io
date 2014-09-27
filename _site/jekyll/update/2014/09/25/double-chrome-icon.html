@@ -47,11 +47,11 @@
   <article class="post-content">
     <p>After installing Chrome on a fresh install of elementary OS Freya you might notice that after opening chrome you get two icons. To fix this you have to input one simple line in the terminal.</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">sudo scratch-text-editor /usr/share/applications/google-chrome.desktop</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash">sudo scratch-text-editor /usr/share/applications/google-chrome.desktop</code></pre></div>
 
 <p>Now you’ll see a <code>scratch</code> window pop up. Under <code>[Desktop Entry]</code> paste the following line of code:</p>
 
-<div class="highlight"><pre><code class="language-html" data-lang="html">StartupWMClass=Google-chrome-stable</code></pre></div>
+<div class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nv">StartupWMClass</span><span class="o">=</span>Google-chrome-stable</code></pre></div>
 
 <p>After all that close chrome if opened, and remove the chrome icon from the plank. Then re-lock it back to the plank.</p>
 

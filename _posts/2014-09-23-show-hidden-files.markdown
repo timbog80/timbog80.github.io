@@ -7,6 +7,6 @@ categories: jekyll update
 
 By default, like many other operating systems, elementary OS hides your files and folders. To make them visible, while inside of a folder simply press:
 
-{% highlight html %}
+{% highlight bash %}
 ctrl + H
 {% endhighlight %}

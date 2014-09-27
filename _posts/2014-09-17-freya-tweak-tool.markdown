@@ -7,9 +7,15 @@ categories: jekyll update
 
 Since the release of `elementary OS Beta 1` I've been searching and waiting for Elementary Tweak Tools to become available. After searching for while I stumbled upon `lmelinux.net` There I found three methods of installing the tweak tool, two of which are not functional.
 
-{% highlight html %}
+{% highlight bash %}
 sudo add-apt-repository ppa:mpstark/elementary-tweaks-daily
+{% endhighlight %}
+
+{% highlight bash %}
 sudo apt-get update
+{% endhighlight %}
+
+{% highlight bash %}
 sudo apt-get install elementary-tweaks
 {% endhighlight %}
 
