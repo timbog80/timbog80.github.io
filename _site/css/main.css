@@ -344,20 +344,7 @@ pre {
 .post-link {
   font-size: 40px;
   color: #222222;
-  line-hieght: 0;
-  font-family: "Noto Serif", serif;
-  display: inline-block;
-  margin: 0;
-  padding: 0; }
-  .post-link:after {
-    display: block;
-    content: "";
-    height: 4px;
-    width: 0%;
-    background-color: #f8f8f8;
-    transition: width 0.4s ease-in-out; }
-  .post-link:hover:after, .post-link:focus:after {
-    width: 100%; }
+  font-family: "Noto Serif", serif; }
 
 /**
  * Arrow-Right effect

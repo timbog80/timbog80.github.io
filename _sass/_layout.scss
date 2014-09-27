@@ -86,24 +86,7 @@
 .post-link {
   font-size: 40px;
   color: $text-color;
-  line-hieght: 0;
   font-family: $base-font-family;
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-
-  &:after {
-    display: block;
-    content: "";
-    height: 4px;
-    width: 0%;
-    background-color: #f8f8f8;
-    transition: width 0.4s ease-in-out;
-  }
-  &:hover:after, 
-  &:focus:after {
-    width: 100%;
-  }
 }
 
 /**
