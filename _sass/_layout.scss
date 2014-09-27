@@ -73,7 +73,7 @@
   font-style: italic;
   padding: 3px 7px;
   display: inline-block;
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
   font-weight: 400;
 
   @include transition(all, 0.2s, ease);
@@ -88,9 +88,21 @@
   color: $text-color;
   line-hieght: 0;
   font-family: $base-font-family;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
 
-  &:hover {
-    text-decoration: none;
+  &:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: $grey-color-light;
+    transition: width 0.3s ease-in-out;
+  }
+  &:hover:after, 
+  &:focus:after {
+    width: 100%;
   }
 }
 

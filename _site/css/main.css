@@ -333,7 +333,7 @@ pre {
   font-style: italic;
   padding: 3px 7px;
   display: inline-block;
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
   font-weight: 400;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
@@ -347,9 +347,19 @@ pre {
   font-size: 40px;
   color: #222222;
   line-hieght: 0;
-  font-family: "Noto Serif", serif; }
-  .post-link:hover {
-    text-decoration: none; }
+  font-family: "Noto Serif", serif;
+  display: inline-block;
+  margin: 0;
+  padding: 0; }
+  .post-link:after {
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    background-color: #ededed;
+    transition: width 0.3s ease-in-out; }
+  .post-link:hover:after, .post-link:focus:after {
+    width: 100%; }
 
 /**
  * Arrow-Right effect
