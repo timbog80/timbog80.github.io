@@ -128,6 +128,8 @@ pre {
   pre {
     overflow-x: scroll; }
 
+  .site-header svg {
+    display: none; }
   .site-header .site-menu {
     right: 5%; } }
 /**
@@ -275,6 +277,18 @@ pre {
 .site-header {
   width: 100%;
   padding: 25px 0 35px 0; }
+  .site-header svg {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    top: 50%;
+    left: 100px;
+    fill: #f7f7f7; }
+    .site-header svg path {
+      fill: white; }
   .site-header .site-title {
     font-size: 35px;
     letter-spacing: -1px;

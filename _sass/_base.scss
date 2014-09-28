@@ -164,6 +164,11 @@ pre {
   }
   
   .site-header {
+
+    svg {
+      display: none;
+    }
+
     .site-menu {
       right: 5%;
     }

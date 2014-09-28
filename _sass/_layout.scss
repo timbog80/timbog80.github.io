@@ -1,9 +1,26 @@
 /**
  * Site header
  */
+
 .site-header {
   width: 100%;
   padding: 25px 0 35px 0;
+
+  svg {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    overflow: hidden;
+    transform: translate(-50%,-50%);
+    position: fixed;
+    top: 50%;
+    left: 100px;
+    fill: #f7f7f7;
+
+    path {
+      fill: white;
+    }
+  }
 
   .site-title {
     font-size: 35px;
