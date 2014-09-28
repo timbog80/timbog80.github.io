@@ -273,23 +273,8 @@ pre {
  * Site header
  */
 .site-header {
-  position: fixed;
   width: 100%;
-  z-index: 100;
-  top: 0;
-  padding: 25px 0 35px 0;
-  -webkit-transition: all 0.25s ease;
-  -moz-transition: all 0.25s ease;
-  -ms-transition: all 0.25s ease;
-  -o-transition: all 0.25s ease;
-  transition: all 0.25s ease; }
-  .site-header.smaller {
-    padding: 24px 0 34px 0;
-    background: #333333;
-    opacity: .92;
-    box-shadow: inset 0px -4px 6px 0px rgba(0, 0, 0, 0.15); }
-    .site-header.smaller .site-description, .site-header.smaller .site-title {
-      color: white; }
+  padding: 25px 0 35px 0; }
   .site-header .site-title {
     font-size: 35px;
     letter-spacing: -1px;
@@ -306,9 +291,7 @@ pre {
 .page-content {
   display: block;
   margin: 0 auto;
-  margin-top: 150px; }
-  .page-content.smaller {
-    margin-top: 203px; }
+  margin-top: 10px; }
 
 .page-heading {
   font-size: 20px; }
@@ -333,11 +316,12 @@ pre {
   display: inline-block;
   margin: 10px 0 10px 0;
   font-weight: 400;
-  -webkit-transition: all 0.2s ease;
-  -moz-transition: all 0.2s ease;
-  -ms-transition: all 0.2s ease;
-  -o-transition: all 0.2s ease;
-  transition: all 0.2s ease; }
+  border: thin solid #f3f3f3;
+  -webkit-transition: all 0.25s ease;
+  -moz-transition: all 0.25s ease;
+  -ms-transition: all 0.25s ease;
+  -o-transition: all 0.25s ease;
+  transition: all 0.25s ease; }
   .post-meta:hover {
     color: #a2a2a2; }
 
@@ -362,11 +346,11 @@ pre {
   .post-read .arrow-right {
     margin-left: -7px;
     opacity: 0;
-    -webkit-transition: all 0.1s ease;
-    -moz-transition: all 0.1s ease;
-    -ms-transition: all 0.1s ease;
-    -o-transition: all 0.1s ease;
-    transition: all 0.1s ease; }
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out; }
 
 .post-content {
   margin-bottom: 30px;
@@ -384,6 +368,7 @@ pre {
   .pagination em {
     background: #f8f8f8;
     color: #d5d5d5;
+    border: thin solid #f1f1f1;
     padding: 3px 7px;
     border-radius: 2px; }
 
