@@ -1,0 +1,24 @@
+* {
+	font-family: monospace;
+}
+
+p {
+	font-size: 14px;
+}
+
+a {
+	text-decoration: none;
+	text-align: center;
+	color: #fff;
+	display: inline-block;
+	padding: 5px 10px;
+	background: #000;
+}
+
+#wrap {
+	position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}

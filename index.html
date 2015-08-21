@@ -1,45 +1,15 @@
----
-layout: default
----
-
-<div class="home">
-
-<!-- posts -->
-
-<ul class="post-list">
-  {% for post in paginator.posts %}
-    <li>
-      <h2>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h2>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-    </li>
-
-    {{ post.excerpt }}
-
-    <a class="post-read" href="{{ post.url }}">Read More <span class="arrow-right">&raquo;</span></a>
-  {% endfor %}
-</ul>
-
-<!-- pagnination -->
-  
-{% if paginator.total_pages > 1 %}
-
-  <div class="pagination">
-
-    {% for page in (1..paginator.total_pages) %}
-
-      {% if page == paginator.page %}
-        <em>{{ page }}</em>
-
-      {% elsif page == 1 %}
-        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-
-      {% else %}
-        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-
-      {% endif %}
-    {% endfor %}
-  </div>
-{% endif %}
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>We have moved</title>
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+	<div id="wrap">
+		<p>timbog80.github.com has moved to blog.autograph.cc<p>
+		<p>thanks for the support!</p>
+		<a href="http://blog.autograph.cc/">blog.autograph.cc</a>
+	</div>
+</body>
+</html>
